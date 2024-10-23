@@ -18,7 +18,7 @@ You are required to take the following steps in preparation for this exam.
 git clone https://github.com/rbirney/react-exam.git
 ~~~
 
-## Add .env file
+### Add .env file
 
 - Open the cloned project in Visual Studio Code
 
@@ -31,7 +31,7 @@ REACT_APP_TMDB_KEY=YOUR_KEY_GOES_HERE
 FAST_REFRESH=false
 ~~~
 
-## Create your own repository
+### Create your own repository
 
 Create a new public repository in your GitHub account called 'reactExam'.
 
@@ -48,7 +48,7 @@ git push origin main
 Verify that your GitHub repository now contains the starter app.
 
 
-## Start the app
+### Start the app
 
 In your VS Code terminal, run the following commands:
 
@@ -59,4 +59,33 @@ npm start
 
 Now check that the Movie App runs correctly and is accessible from a browser on your machine.
 
+
+### Update README.md
+
+Add your name and student number to the README.md file, as shown below:
+
+~~~markdown
+# React In-class Exam, November 2024
+
+Your Name, Student Number
+...
+~~~
+
+Push your changes to GitHub:
+
+~~~bash
+git add -A
+git commit -m "Readme updated"
+git push origin main
+~~~
+
 **Please ensure you have completed these steps before the lab-based exam and that you can push changes to your remote repository on GitHub.**
+
+
+## 2. Submit to Moodle
+
+Once you have created your GitHub repository you can submit it to Moodle (no need to wait until the day of the exam!)
+
+You can submit it here:
+
+[https://moodle.wit.ie/mod/assign/view.php?id=4357694](https://moodle.wit.ie/mod/assign/view.php?id=4357694)
